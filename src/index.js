@@ -1,4 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import MyHeader from "./components/Header";
+import MyInfo from "./components/MyInfo";
 
-ReactDOM.render(<h1>adaijosWorld</h1>, document.getElementById("root"));
+require("./styles/styles.scss");
+
+ReactDOM.render(
+  <div>
+    <MyHeader />
+    <MyInfo />
+  </div>,
+  document.getElementById("root")
+);
