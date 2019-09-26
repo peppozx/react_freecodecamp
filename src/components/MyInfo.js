@@ -2,8 +2,8 @@ import React from "react";
 
 function MyInfo() {
   return (
-    <div>
-      <h1>Iguera</h1>
+    <div className="my-info">
+      <h1>React Application</h1>
       <p>Testzin config success</p>
       <ul>
         <li>One</li>

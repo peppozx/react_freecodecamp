@@ -5,3 +5,42 @@ body {
   background-color: $color-1;
   color: $text-color;
 }
+
+.my-info {
+  font-size: 1.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.my-info h1 {
+  flex: 0 0 100%;
+  text-align: center;
+}
+.my-info p {
+  flex: 0 0 100%;
+  text-align: center;
+}
+.my-info ul {
+  flex: 0 0 100%;
+  text-align: center;
+}
+
+.my-form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.my-form p {
+  flex: 0 0 100%;
+  text-align: center;
+}
+
+.results {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.results p {
+  flex: 0 0 100%;
+  text-align: center;
+}

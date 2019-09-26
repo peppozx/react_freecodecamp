@@ -1,14 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import MyHeader from "./components/Header";
-import MyInfo from "./components/MyInfo";
+import App from "./components/App";
 
 require("./styles/styles.scss");
 
 ReactDOM.render(
   <div>
-    <MyHeader />
-    <MyInfo />
+    <App />
   </div>,
   document.getElementById("root")
 );
